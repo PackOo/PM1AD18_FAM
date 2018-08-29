@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.GridLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <Button
+        android:id="@+id/btnpunto"
+        android:layout_width="wrap_content"
+        android:layout_height="83dp"
+        android:onClick="btnpunto"
+        android:text="."
+        app:layout_column="0"
+        app:layout_row="5" />
+
+    <Button
+        android:id="@+id/btn0"
+        android:layout_width="75dp"
+        android:layout_height="81dp"
+        android:onClick="btn0"
+        android:text="0"
+        app:layout_column="1"
+        app:layout_row="5" />
+
+    <EditText
+        android:id="@+id/txtcaja"
+        android:layout_width="153dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_column="3"
+        app:layout_row="0" />
+
+    <Button
+        android:id="@+id/btnigual"
+        android:layout_width="wrap_content"
+        android:layout_height="79dp"
+        android:onClick="igual"
+        android:text="="
+        app:layout_column="2"
+        app:layout_row="5" />
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="wrap_content"
+        android:layout_height="77dp"
+        android:onClick="btn7"
+        android:text="7"
+        app:layout_column="0"
+        app:layout_row="2" />
+
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="wrap_content"
+        android:layout_height="78dp"
+        android:onClick="btn8"
+        android:text="8"
+        app:layout_column="1"
+        app:layout_row="2" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="71dp"
+        android:onClick="btn4"
+        android:text="4"
+        app:layout_column="0"
+        app:layout_row="3" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:onClick="btn5"
+        android:text="5"
+        app:layout_column="1"
+        app:layout_row="3" />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="wrap_content"
+        android:layout_height="73dp"
+        android:onClick="btn6"
+        android:text="6"
+        app:layout_column="2"
+        app:layout_row="3" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="76dp"
+        android:onClick="btn1"
+        android:text="1"
+        app:layout_column="0"
+        app:layout_row="4" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="76dp"
+        android:onClick="btn2"
+        android:text="2"
+        app:layout_column="1"
+        app:layout_row="4" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="76dp"
+        android:onClick="btn3"
+        android:text="3"
+        app:layout_column="2"
+        app:layout_row="4" />
+
+    <Button
+        android:id="@+id/btndivicion"
+        android:layout_width="150dp"
+        android:layout_height="77dp"
+        android:onClick="divicion"
+        android:text="/"
+        app:layout_column="3"
+        app:layout_row="2" />
+
+    <Button
+        android:id="@+id/btnmultiplicacion"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:onClick="multiplicacion"
+        android:text="*"
+        app:layout_column="3"
+        app:layout_row="3" />
+
+    <Button
+        android:id="@+id/btnresta"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:onClick="resta"
+        android:text="-"
+        app:layout_column="3"
+        app:layout_row="4" />
+
+    <Button
+        android:id="@+id/btnsuma"
+        android:layout_width="151dp"
+        android:layout_height="79dp"
+        android:onClick="suma"
+        android:text="+"
+        app:layout_column="3"
+        app:layout_row="5" />
+
+    <Button
+        android:id="@+id/btn9"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:onClick="btn9"
+        android:text="9"
+        app:layout_column="2"
+        app:layout_row="2" />
+
+    <Button
+        android:id="@+id/btnC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C"
+        app:layout_column="0"
+        app:layout_row="1" />
+
+    <Button
+        android:id="@+id/btnborrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="limpiar"
+        android:text="DEL"
+        app:layout_column="1"
+        app:layout_row="1" />
+
+</android.support.v7.widget.GridLayout>
