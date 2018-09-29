@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">card</string>
+    <string name="action_settings">Settings</string>
+    <string name="descripcion">Description of the picture</string>
+</resources>
